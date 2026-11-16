@@ -13,9 +13,9 @@ def test_count_nucls_all():
     assert all(c[k] == 1 for k in c)
 
 
-# def test_count_nucls_none():
-#     c = gta.count_nucs('OPQR')
-#     assert all(c[k] == 0 for k in c)
+ def test_count_nucls_none():
+     c = gta.count_nucs('OPQR')
+     assert all(c[k] == 0 for k in c)
 
 
 # def test_count_nucls_some():
